@@ -13,15 +13,4 @@ class ChartographerApplicationTests {
 	void contextLoads() {
 	}
 
-	@Test
-	void test() {
-		Map<String, String> m = new HashMap<>();
-		try {
-			m.get("key");
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
-	}
-
-
 }
